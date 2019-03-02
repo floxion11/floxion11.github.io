@@ -1,0 +1,89 @@
+body {
+	background-image: url(../img/bg.png);
+}
+
+.container {
+	width: 600px;
+	height: 430px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.container h1 {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: "ZCOOL QingKe HuangYou";
+}
+
+/* Font style list item*/
+.container ul li a {
+	letter-spacing: 2px;
+	font-family: 'Righteous', cursive;
+	color: black;
+}
+
+/* Style container list Latihan*/
+.container ul li {
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-color: #DBDBDB;
+	filter: drop-shadow(2px 2px 2px rgba(0,0,0,.5));
+	transition: .3s;
+}
+
+/* Style container list Latihan jika dihover*/
+#first-child:hover {
+	width: 500px;
+	height: 180px;
+}
+
+.container ul li:hover {
+	width: 500px;
+	height: 100px;
+}
+
+/* Ini list yang didalam container list latihan*/
+.list ol li {
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 10px;
+	opacity: 0;
+}
+
+/* Jika container list diatas dihover list yang didalam
+	list akan terbuka*/
+.container ul li:hover .list ol li {
+	opacity: 1;
+}
+
+.list ol li:hover {
+	width: 200px;
+	height: 50px;
+}
+
+.container a {
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 6px;
+	padding-left: 20px;
+}
+
+#hoverSource {
+	margin-left: 20px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.list ol li:hover #hoverSource {
+	opacity: 1;
+}
+
+.list ol li a:hover {
+	color: white;
+}
