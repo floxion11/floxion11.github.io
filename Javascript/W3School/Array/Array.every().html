@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.every()</h1>
+
+	<p id="demo"></p>
+
+	<script>
+		var numbers = [32, 45, 12, 32, 41];
+		var checkNumbers = numbers.every(myFunction);
+
+		document.getElementById('demo').innerHTML = checkNumbers;
+		//cek semua komponen array yang lebih dari 18
+		function myFunction(value) {
+			return value > 18;
+		}
+	</script>
+	
+</body>
+</html>

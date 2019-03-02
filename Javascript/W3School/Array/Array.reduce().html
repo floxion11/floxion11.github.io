@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.reduce()</h1>
+
+	<p id="demo"></p>
+
+	<script>
+		var numbers = [45, 32, 22, 51, 98];
+		var sum = numbers.reduce(myFunction);
+		document.getElementById('demo').innerHTML = sum;
+
+		// menjumlahkan semua komponen array
+		function myFunction(total, value) {
+			return total + value;
+		}
+	</script>
+	
+</body>
+</html>

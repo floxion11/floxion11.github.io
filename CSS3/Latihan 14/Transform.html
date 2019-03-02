@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transform CSS3</title>
+
+	<style>
+		p {
+			font-size: 20px;
+			text-align: center;
+		}
+		/*
+			scale(angka), scaleX(angka), scaleY(angka)
+			rotate(deg), rotateX(deg), rotateY(deg)
+			skew(deg), skewX(deg), skewY(deg)
+			translate(px), translateX(px), translateY(px)
+		*/
+		.kotak {
+			width: 200px;
+			height: 200px;
+			background-color: lightblue;
+			margin: 50px auto;
+			transition: 1s;
+		}
+		.kotak:hover {
+			/*transform: scale(1.5,2);*/
+			/*transform: rotateX(180deg) rotate(45deg);*/
+			/*transform: skewX(45deg) skewY(30deg);*/
+			transform: translate(50px, 100px) rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="kotak"></div>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+</body>
+</html>
+
+<!-- scale
+	rotate
+	skew = condong/miring
+	translate = ubah posisi
+ -->

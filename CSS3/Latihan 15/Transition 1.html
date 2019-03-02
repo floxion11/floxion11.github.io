@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition 1 CSS3</title>
+
+	<style>
+		/*
+			transition:
+			[property] <durasi> [fungsi] [delay];
+			durasi = s / ms
+		*/
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			width: 900px;
+			margin: 5px auto;
+			border: 5px solid black;
+		}
+		.kotak {
+			width: 100px;
+			height: 100px;
+			background-color: salmon;
+			transition: margin-left 1s;
+		}
+		.container:hover .kotak{
+			transform: rotate(1024deg);
+			margin-left: 800px;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="kotak"></div>
+	</div>
+
+</body>
+</html>

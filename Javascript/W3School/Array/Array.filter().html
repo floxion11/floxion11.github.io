@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Javacript</title>
+</head>
+<body>
+
+	<h1>Array.filter()</h1>
+
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		var numbers = [12, 65, 76, 21, 32];
+		var under35 = numbers.filter(myFunction);
+		document.getElementById('demo').innerHTML = under35;
+
+		// Ouputkan array yang kurang dari 35
+		function myFunction(value) {
+			return value < 35;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.some()</h1>
+
+	<p id="demo"></p>
+
+	<script>
+		var numbers = [42, 21, 54, 86, 19];
+		var checkNumbers = numbers.some(myFunction);
+
+		document.getElementById('demo').innerHTML = checkNumbers;
+		// Cek perkomponen array yang lebih dari 18
+		function myFunction (value) {
+			return value > 18;
+		}
+	</script>
+	
+</body>
+</html>

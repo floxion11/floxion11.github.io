@@ -1,0 +1,21 @@
+h1 {
+	color: skyblue;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+	color: royalblue;
+	text-indent: 50px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	word-spacing: 5px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}

@@ -1,0 +1,34 @@
+.hello {
+	color: skyblue;
+}
+
+.hello:hover {
+	color: green;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.hello:active {
+	font-style: italic;
+}
+
+.hello:visited {
+	color: red;
+}
+
+li:nth-child(3n+1 /*even atau odd*/) a {
+	color: green;
+}
+
+li:nth-child(3n+1) a:hover {
+	color: royalblue;
+	font-size: 30px;
+}
+
+p:first-of-type {
+	color: blue;
+}
+
+p:last-of-type {
+	color: skyblue;
+}

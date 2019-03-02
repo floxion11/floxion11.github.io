@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		input {
+			width: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<input id="angka1">
+		<br>
+	<input id="angka2">
+	<p id="hasil"></p>
+
+	<button type="button" onclick="tambah()">Submit</button>
+
+<script>
+	function tambah() {
+		var angka1, angka2;
+		angka1 = document.getElementById('angka1').value;
+		angka2 = document.getElementById('angka2').value;
+		
+		var hasil;
+		hasil = Number(angka1) + Number(angka2);
+		document.getElementById('hasil').innerHTML = angka1+"+"+angka2+"="+hasil;
+	}
+</script>
+</body>
+</html>

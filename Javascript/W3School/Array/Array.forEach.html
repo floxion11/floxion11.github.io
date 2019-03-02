@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.forEach()</h1>
+
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		var txt = "";
+		var numbers = [9, 45, 13, 12, 89];
+		numbers.forEach(myFunction);
+		document.getElementById('demo').innerHTML = txt;
+
+		// Memanggil array setiap komponen
+		function myFunction(value) {
+			txt = txt + value + "<br>"
+		}
+	</script>
+
+</body>
+</html>

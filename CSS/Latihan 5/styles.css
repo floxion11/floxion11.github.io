@@ -1,0 +1,32 @@
+body {
+	font-family: arial;
+}
+
+h1,h2 {
+	color: green;
+}
+
+ul li a {
+	color: red;
+}
+
+ol li a {
+	color: gold;
+}
+
+#p1 {
+	color: skyblue;
+}
+
+.p2 {
+	color: royalblue;
+}
+
+.cetak-tebal {
+	font-weight: bold; 
+}
+
+p.cetak-tebal {
+	text-align: justify;
+	font-size: 15px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.find()</h1>
+
+	<p id="demo"></p>
+
+	<script>
+		var numbers = [14, 56, 12, 52, 85];
+		var find = numbers.find(myFunction);
+
+		document.getElementById('demo').innerHTML = find;
+		// Cari array yang lebih dari 18 dari kiri ke kanan, ketemu yang diawal
+		function myFunction(value) {
+			return value > 18;
+		}
+	</script>
+	
+</body>
+</html>

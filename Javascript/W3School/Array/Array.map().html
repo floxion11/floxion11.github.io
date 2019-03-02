@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Javascript</title>
+</head>
+<body>
+
+	<h1>Array.map()</h1>
+
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		var numbers1 = [7, 5, 19, 14, 51];
+		var numbers2 = numbers1.map(myFunction);
+		document.getElementById('demo').innerHTML = numbers1;
+
+		// Menyalin array 1 ke array 2
+		function myFunction(value) {
+			return value;
+		}
+	</script>
+
+</body>
+</html>
