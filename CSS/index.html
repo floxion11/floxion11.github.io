@@ -2,75 +2,60 @@
 <html>
 <head>
 	<title>My Stuff</title>
-	<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="../static/css/reset.css">
-	<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
+	<style>
+		body {
+			background-image: url(../static/img/bg.png);
+			font-family: "Fjalla One";
+		}
+		.container {
+			width: 500px;
+			height: 500px;
+			margin: 50px auto 0 auto;
+			background-image: radial-gradient(circle,white,#EBEDEF);
+			filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+			border-radius: 50%;
+			text-align: center;
+			position: relative;
+		}
+		li:first-child {
+			padding-top: 60px;
+		}
+		a {
+			color: black;
+			padding-top: 30px;
+			font-size: 70px;
+			filter: drop-shadow(0 0 2px rgba(0,0,0,.8));
+			display: inline-block;
+			text-decoration: none;
+		}
+		a:hover {
+			animation-name: zoom;
+			animation-duration: .3s;
+			animation-fill-mode: both;			
+		}
+
+		@keyframes zoom {
+			0% {
+				filter: drop-shadow(0 0 2px rgba(0,0,0,.8));
+				transform: scale(1);
+			}
+			100%{
+				filter: drop-shadow(0 20px 5px rgba(0,0,0,.8));
+				transform: scale(1.5);
+			}
+		}
+	</style>
 </head>
 <body>
 
 	<div class="container">
-		<h1>List of my project CSS</h1>
 		<ul>
-			<li id="first-child" ><a href="">Latihan 1</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank" href="Latihan 1/Embed Css.html">Embed CSS</a></li>
-						<li><a target="_blank" href="Latihan 1/External Css.html">External CSS</a></li>
-						<li><a target="_blank" href="Latihan 1/Inline Css.html">Inline CSS</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%201">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 2</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank" href="Latihan 2/Font styling.html">Font Styling</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%202">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 3</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank"  href="Latihan 3/Text Styling.html">Text Styling</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%203">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 4</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank"  href="Latihan 4/Background.html">Background</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%204">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 5</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank"  href="Latihan 5/Selector.html">Selector</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%205">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 6</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank"  href="Latihan 6/Pseudo Class.html">Pseudo class</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%206">-> Source code</a></p>
-			</li>
-			<li><a href="">Latihan 7</a>
-				<div class="list">
-					<ol>
-						<li><a target="_blank"  href="Latihan 7/Inheritance.html">Inheritance</a></li>
-					</ol>
-				</div>
-				<p><a target="_blank" id="hoverSource" href="https://github.com/floxion11/floxion11.github.io/tree/master/CSS/Latihan%207">-> Source code</a></p>
-			</li>
+			<li><a target="_blank" href="CSS/">CSS</a></li>
+			<li><a target="_blank" href="CSS3/">CSS 3</a></li>
+			<li><a target="_blank" href="CSS-Layouting/">CSS Layouting</a></li>
 		</ul>
 	</div>
 
