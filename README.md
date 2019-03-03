@@ -8,4 +8,7 @@
 -> Bug fixes pada CSS-Layouting
 
 0.5.4
+-> No update
+
+0.5.5
 -> Penambahan Tutorial pada CSS
