@@ -91,3 +91,17 @@ body {
 .list ol li a:hover {
 	color: white;
 }
+
+#hoverLinkTutorial {
+	margin-left: 200px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.container ul li:hover #hoverLinkTutorial {
+	opacity: 1;
+}
+
+#hoverLinkTutorial:hover {
+	color: white;
+}
