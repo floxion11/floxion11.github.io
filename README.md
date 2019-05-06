@@ -18,3 +18,6 @@
 
 0.5.7
 -> Penambahan Java
+
+0.5.8
+-> Penambahan Java v2

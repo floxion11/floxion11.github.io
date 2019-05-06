@@ -1,31 +1,37 @@
 import java.util.Scanner;
-import java.util.Arrays; //package array
+import java.util.Random;
 
 public class BubbleSort {
+	// Method atau fungsi untuk menampilkan array
+	static void printArray(int[] a,int n){
+		for(int i=0; i<n; i++){
+			System.out.print(a[i]+" ");
+		}
+		System.out.println();
+	}
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		Random rand = new Random();
 
-		int[] a,b;
+		int[] a;
 		int n,temp;
 		int i,j;
+		int range = (90 - 20 + 1)+20;
 
 		System.out.print("Banyak deret : ");
 			n = input.nextInt();
-
-		// Untuk memberikan batas pada array
 		a = new int[n];
-		b = new int[n];
 
-		// length = property array untuk mengetahui panjang array
+		// Proses penginputan
 		for(i=0;i<a.length;i++) {
-			System.out.print("Angka ke-"+(i+1)+" = ");
-				a[i] = input.nextInt();
-				b[i] = a[i];
+			a[i] = rand.nextInt(range);
 		}
+		printArray(a,n);
 
+		System.out.println("\nSorting ascending (kecil ke besar)");
 		// Sorting Ascending bubble sort
-		for (i=0; i<a.length; i++) {
-			for (j=(a.length-1); j>i; j--) {
+		for (i=0; i<n; i++) {
+			for (j=(n-1); j>i; j--) {
 				if(a[j] < a[j-1]) {
 					temp   = a[j];
 					a[j]   = a[j-1];
@@ -33,28 +39,19 @@ public class BubbleSort {
 				}
 			}
 		}
+		printArray(a,n);
 
+		System.out.println("Sorting descending (besar ke kecil)");
 		// Sorting Descending bubble sort
-		for (i=0; i<a.length; i++) {
-			for (j=(a.length-1); j>i; j--) {
-				if(b[j] > b[j-1]) {
-					temp   = b[j];
-					b[j]   = b[j-1];
-					b[j-1] = temp;
+		for (i=0; i<n; i++) {
+			for (j=(n-1); j>i; j--) {
+				if(a[j] > a[j-1]) {
+					temp   = a[j];
+					a[j]   = a[j-1];
+					a[j-1] = temp;
 				}
 			}
 		}
-
-		System.out.println("\nSorting ascending (kecil ke besar)");
-		for(int hasilSorting : a) {
-			System.out.print(hasilSorting+" ");
-		}
-		System.out.println("");
-
-		System.out.println("Sorting descending (besar ke kecil)");
-		for(int hasilSorting : b) {
-			System.out.print(hasilSorting+" ");
-		}
-		System.out.println("");
+		printArray(a,n);
 	}
 }

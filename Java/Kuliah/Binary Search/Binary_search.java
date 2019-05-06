@@ -1,23 +1,34 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Binary_search {
+	// Method atau Fungsi untuk menampilkan array
+	static void printArray(int[] a,int n){
+		for(int i=0; i<n; i++){
+			System.out.print(a[i]+" ");
+		}
+		System.out.println();
+	}
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
+		Random rand = new Random();
 
 		int[] a;
 		int n,i,j;
 		int key;
 		int l,r,m,x;
 		int ix, found;
+		int range = (90 - 20 +1)+20;
 
 		System.out.print("Banyak Array : ");
 			n = input.nextInt();
-
 		a = new int[n];
+
+		// Proses penginputan
 		for(i=0; i<n; i++){
-			System.out.print("Indeks ke-"+i+" = ");
-				a[i] = input.nextInt();
+			a[i] = rand.nextInt(range);
 		}
+		printArray(a,n);
 
 		System.out.print("\nMasukkan angka yang dicari : ");
 			x = input.nextInt();
