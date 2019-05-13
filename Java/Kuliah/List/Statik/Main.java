@@ -1,3 +1,5 @@
+package kelasListStatik;
+
 class NilaiMatkul{
 	private String nim;
 	private String nama;
@@ -286,7 +288,7 @@ public class Main{
 
 		L.printElemen();
 
-		System.out.println("============================="+L.countElemen()+"____"+L.emptyElemen());
+		System.out.println("=============================");
 
 		L.delLast();
 		L.delAfter(L.getFirst());

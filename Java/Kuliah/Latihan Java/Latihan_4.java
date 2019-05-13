@@ -1,4 +1,7 @@
+package kelasLatihan4;
+
 import java.util.Scanner;
+
 public class Latihan_4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

@@ -1,6 +1,9 @@
+package kelasIOFile;
+
 import java.util.Scanner;
 import java.io.*;
 import java.util.Base64; // Library Base64
+
 public class Main{
 	// Enumarasi
 	enum Menu{tambah,cek,hapus,exit}

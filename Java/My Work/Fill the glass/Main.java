@@ -1,3 +1,5 @@
+package kelasFillTheGlass;
+
 import java.util.Scanner;
 public class Main{
 	static int iterasiY = 10,iterasiN = 10; // Variabel global

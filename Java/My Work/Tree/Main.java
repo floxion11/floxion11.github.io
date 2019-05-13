@@ -1,3 +1,5 @@
+package kelasTree;
+
 class Simpul{
 	char info;
 	Simpul right;

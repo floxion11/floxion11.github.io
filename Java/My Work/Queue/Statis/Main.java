@@ -1,3 +1,5 @@
+package kelasQueueStatis;
+
 class NilaiMatkul{
 	String nim;
 	String nama;

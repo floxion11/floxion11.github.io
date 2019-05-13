@@ -1,3 +1,5 @@
+package kelasListDinamis;
+
 class NilaiMatkul{
 	String nim;
 	String nama;
@@ -244,6 +246,7 @@ public class Main{
 		System.out.println("========================");
 		L.addFirst("131","Rere","A");
 		L.addAfter(L.getFirst(),"192","Lopi","E");
+		L.addAfter(L.getFirst(),"153","Frea","A");
 		L.addLast("175","Pio","B");
 
 		L.printElemen();

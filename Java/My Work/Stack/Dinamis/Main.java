@@ -1,3 +1,5 @@
+package kelasStackDinamis;
+
 class NilaiMatkul{
 	String nim;
 	String nama;

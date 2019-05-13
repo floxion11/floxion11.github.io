@@ -1,3 +1,5 @@
+package kelasQueueDinamis;
+
 class NilaiMatkul{
 	String nim;
 	String nama;

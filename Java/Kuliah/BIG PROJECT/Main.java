@@ -1,11 +1,8 @@
-/* Kelompok :
-    - Zukron Alviandy Rahmadhan
-    - Muhammad Arif
-    - Devara Yulia Alindi
-*/
+package kelasBigProject;
 
 import java.util.Scanner;
 import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

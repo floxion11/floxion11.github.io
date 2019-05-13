@@ -1,3 +1,5 @@
+package kelasListStatis;
+
 // Mendeklarasikan struktur data utama yang menjadi elemen
 class NilaiMatkul {
 	String nim;

@@ -1,3 +1,8 @@
+******PENTING********
+- Jika ingin menyalin, salin program utama yaitu "Main.java"
+- Nama folder adalah nama program, setiap folder pasti ada "Main.java"
+- Hapus satu baris sintaks "package", jika ingin menyalinnya ke IDE
+
 0.5.1
 -> Penambahan index pada project HTML
 
@@ -23,4 +28,4 @@
 -> Penambahan Java v2
 
 0.5.9
--> Penambahan Java v3
+-> Penambahan Java dan pemodifikasian
