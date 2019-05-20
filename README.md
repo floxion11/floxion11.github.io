@@ -35,4 +35,4 @@ Karena file-file tersebut saling berkaitan
 -> Penambahan Java dan pemodifikasian
 
 0.6.0 
--> Penambahan Java (Gui Swin, dan lain-lain)
+-> Penambahan Java (GUI Swing, dan lain-lain)
