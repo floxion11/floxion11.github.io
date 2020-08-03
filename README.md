@@ -1,4 +1,4 @@
-******PENTING********
+******PENTING******
 - Jika ingin menyalin, salin program utama yaitu "Main.java"
 - Nama folder adalah nama program, setiap folder pasti ada "Main.java"
 - Hapus satu baris sintaks "package", jika ingin menyalinnya ke IDE
